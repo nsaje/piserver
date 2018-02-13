@@ -4,3 +4,8 @@ services:
     image: lsioarmhf/organizr
     ports:
      - "80:80"
+    volumes:
+     - organizr-data
+
+volumes:
+  organizr-data:
